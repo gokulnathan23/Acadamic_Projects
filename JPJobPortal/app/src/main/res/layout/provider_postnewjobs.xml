@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Job Designation"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/jobdesignation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="125dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab" />
+
+    <ImageView
+        android:id="@+id/email_line"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Position Type"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/jobtype"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="195dp" />
+
+    <ImageView
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="235dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Job Location"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/joblocation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="265dp" />
+
+    <ImageView
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="305dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Qualification"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/qualification"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="335dp" />
+
+    <ImageView
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="375dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Experience"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/experience"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="405dp" />
+
+    <ImageView
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="445dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Company Name"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/compname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="475dp" />
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="515dp"
+        android:fontFamily="@font/roboto_slab_light"
+        android:text="Company Email"
+        android:textColor="#848282"
+        android:textSize="12dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        app:fontFamily="@font/roboto_slab"
+        android:id="@+id/compemail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="550dp" />
+
+    <ImageView
+
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="585dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/line_txt" />
+
+    <Button
+        android:id="@+id/postjobBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        android:background="#70bbe7"
+        android:text="Post Job"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/montserrat" />
+</RelativeLayout>
+</ScrollView>

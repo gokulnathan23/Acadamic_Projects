@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "935826783896",
+    "firebase_url": "https://jpjobportal.firebaseio.com",
+    "project_id": "jpjobportal",
+    "storage_bucket": "jpjobportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935826783896:android:8e6513238e3941d3",
+        "android_client_info": {
+          "package_name": "com.jp.jobportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935826783896-a3s3ue4kt8lev7eofhn39k16625n1t0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jp.jobportal",
+            "certificate_hash": "096ba339dec630ada969077caeb98b88401c8c48"
+          }
+        },
+        {
+          "client_id": "935826783896-cd6ru5d5tbee82lgk1n70rc97incjssp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJvFnaATdqEyB89dQ9lnxP3eqU5x3FjdA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935826783896-cd6ru5d5tbee82lgk1n70rc97incjssp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

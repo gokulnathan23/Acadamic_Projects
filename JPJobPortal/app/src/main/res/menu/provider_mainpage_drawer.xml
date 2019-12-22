@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/providerhome"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/providereditprofile"
+            android:icon="@drawable/ic_account_circle_black_48dp"
+            android:title="Edit Company Profile" />
+        <item
+            android:id="@+id/providerpostjobs"
+            android:icon="@drawable/ic_assignment_black_48dp"
+            android:title="Post New Job" />
+        <item
+            android:id="@+id/providerpostedjobs"
+            android:icon="@drawable/ic_announcement_black_48dp"
+            android:title="Posted Jobs" />
+
+        <item
+            android:id="@+id/providerseekersapplied"
+            android:icon="@drawable/ic_assignment_ind_black_48dp"
+            android:title="Applied Seekers" />
+        <item
+            android:id="@+id/providerlogout"
+            android:icon="@drawable/ic_exit_to_app_black_48dp"
+            android:title="Logout" />
+    </group>
+</menu>

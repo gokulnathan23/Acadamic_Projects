@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intro_bg"
+    tools:context=".Intro_Activity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/intro_job_seeker_btn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        app:backgroundTint="@android:color/transparent"
+        app:fabCustomSize="160dp"
+        app:maxImageSize="160dp"
+        app:srcCompat="@drawable/intro_job_seeker_img" />
+
+    <ImageView
+        android:id="@+id/intro_job_seeker_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        app:srcCompat="@drawable/intro_job_seeker_txt" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/intro_job_provider_btn"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        app:backgroundTint="@android:color/transparent"
+        app:fabCustomSize="160dp"
+        app:maxImageSize="160dp"
+        app:srcCompat="@drawable/intro_job_provider_img" />
+
+    <ImageView
+        android:id="@+id/intro_job_provider_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        app:srcCompat="@drawable/intro_job_provider_txt" />
+
+    <TextView
+        android:id="@+id/chechinguser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

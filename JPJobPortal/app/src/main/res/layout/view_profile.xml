@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="700dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Designation :"
+        android:textColor="@color/colorOrange"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/jobDesigna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="@color/intro_bg"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekernameinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Email-ID"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekeremailinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Mobile Number"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/seekermobnuminviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Date Of Birth"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerdobinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Gender"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekergenderinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Education"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekereducationinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Working Experience"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerexperienceinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="570dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Prefered Job Location"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerlocinviewpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/viewProSelectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="660dp"
+        android:background="@color/colorPrimary"
+        android:text="Select"
+        android:textColor="@color/colorBackgroundWhite"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/viewProRejectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="660dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Reject"
+        android:textColor="@color/colorBackgroundWhite"
+        android:textSize="15dp" />
+</RelativeLayout>
+</ScrollView>

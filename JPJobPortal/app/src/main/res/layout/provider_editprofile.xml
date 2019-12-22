@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="50dp"
+        android:background="#0CCBE5">
+
+        <Button
+            android:id="@+id/psaveprofile"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/montserrat"
+            android:text="Save"
+            android:textColor="@android:color/black" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="45dp"
+            app:cardCornerRadius="75dp"
+            android:background="@android:color/transparent">
+
+            <ImageView
+                android:id="@+id/seekerproimgineditprofile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/intro_job_provider_img" />
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/peditprofile"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/montserrat"
+            android:text="Edit Profile"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Company Name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/providercompanynameineditprofile"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/roboto_slab"
+        android:editable="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Email-ID"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/provideremailineditprofile"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:editable="false"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Company-ID"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/providercompanyidineditprofile"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Mobile Number"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/providermobnumineditprofile"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textSize="16dp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="50dp"
+        android:background="#0CCBE5">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="100dp"
+            app:cardCornerRadius="75dp"
+            android:background="@android:color/transparent">
+
+            <ImageView
+                android:id="@+id/seekerproimginhome"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/intro_job_seeker_img" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekernameinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Email-ID"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekeremailinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Mobile Number"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/seekermobnuminhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Date Of Birth"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerdobinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="580dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="620dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Gender"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekergenderinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="660dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="700dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Education"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekereducationinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="740dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="780dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Working Experience"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerexperienceinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="820dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="860dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Prefered Job Location"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/seekerlocinhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="900dp"
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
+</ScrollView>
